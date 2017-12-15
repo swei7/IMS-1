@@ -1,3 +1,5 @@
+This is a guideline.
+=======
 
 
 
@@ -26,4 +28,3 @@ public string GetName(){
 This `GetName()` is not useful.
 
 [HelloWare Academy](https://www.hellowaracademy.com)
-
