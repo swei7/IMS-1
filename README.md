@@ -1,1 +1,1 @@
-# IMS
+This is a guideline.
