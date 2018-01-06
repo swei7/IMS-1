@@ -5,17 +5,15 @@ using System.Web;
 
 namespace IMS.Models
 {
-    public class Product
+    public class Item
     {
-        public string ItemName { get; set;}
-        public string Type { get; set; }
-        public string Category { get; set; }
+        public string Name { get; set;}
+        public int Id { get; set; }
+        public string PicturePath { get; set; }
         public string Description { get; set; }
+        public string Notes { get; set; }
         public double Cost { get; set; }
-        public double NormalPrice { get; set; }
-        public double BulkPrice { get; set; }
-        public double DiscountPrice { get; set; }
-        public string Location { get; set; }
-        public int Quantituy { get; set; }
+        public int CategoryId { get; set; }
+        public int TypeId { get; set; }
     }
 }
